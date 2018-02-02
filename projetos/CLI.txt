@@ -1,0 +1,18 @@
+Instalar: npm install -g @angular/cli
+Ver versão do CLI: ng -v
+Nova aplicação: ng new <aplicação> -- prefix=<prefixo> (caso necessário)
+instalar typerscript: npm install -g typescript
+transformar TS em JS: tsc <arquivo>
+criar tsconfig.json: tsc -init
+instalar json-serve: npm install -g json-server
+startar server: json-server --watch <arquivo>
+Instalar: npm install <nome do pacote> -g
+Verificar pacote: tsc -v
+Compilar arquivo: tsc <arquivo>
+Monitorar arquivos por mudança (com base no JSON): tsc -w
+Verificar arquivo (pelo NODE): node dist/<arquivo ts>
+Atributo opcional: ?
+importar biblioteca: 1) npm init -f
+		     2) npm install --save <bibliotec>
+		     3) npm install --save-dev @types/lodash@4.14 (exemplo no caso de não utilizar a biblioteca em runtime)
+
